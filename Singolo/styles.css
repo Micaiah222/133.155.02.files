@@ -50,13 +50,10 @@ body {
     background-color: #f06c64;
     text-align: center;
     padding-top: 15px;
-    padding-left: 15px;
     
     
     
-}
-.home{
-    text-color:#f06c64;
+
 }
 
 @media screen and (max-width: 670px) {
