@@ -11,11 +11,13 @@ body {
     height: 90px;
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
+    
 }
 
 .nav {
     maxwidth: 950px;
     margin: auto;
+    
 }
 
 .links{
@@ -32,6 +34,7 @@ body {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
+    
 }
 
 .logo {
@@ -40,6 +43,7 @@ body {
     float: left;
     margin-top: 28px;
     font-size: 1.4em;
+    margin-left: 150px;
 }
 
 .salmon {
@@ -49,13 +53,21 @@ body {
 .banner {
     background-color: #f06c64;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 50px;
+    margin-right: 500px;
     
-    
-    
-
 }
-
+.fheader{
+    padding-left: 50px;
+    padding-top:100px;
+    color: #666d89;
+    
+}
+.para1{
+    text-align: left;
+    padding-bottom: 100px;
+    
+}
 @media screen and (max-width: 670px) {
     .header {
         height: 120px;
