@@ -1,9 +1,8 @@
 body {
     background-color: #f2f2f2;
-    margin: 0;
+    margin:0;
     font-family: sans-serif;
 }
-
 
 
 
@@ -15,7 +14,7 @@ body {
 }
 
 .nav {
-    maxwidth: 950px;
+    max-width: 950px;
     margin: auto;
     
 }
@@ -26,7 +25,8 @@ body {
     float: right;
     margin-top: 38px;
     text-align: right;
-    font-size: 0.75em
+    font-size: 0.75em;
+    
 }
 
 .links a {
@@ -53,21 +53,39 @@ body {
 .banner {
     background-color: #f06c64;
     text-align: center;
-    padding-top: 50px;
-    margin-right: 500px;
+    padding-top: 10px;
+    
+    
     
 }
 .fheader{
-    padding-left: 50px;
+    padding-left:80px;
     padding-top:100px;
-    color: #666d89;
+    color:#676c8c;
+    margin-bottom:100px;
     
 }
-.para1{
-    text-align: left;
-    padding-bottom: 100px;
+
+.cols{
+    margin-left: 45px;
+    color:#676c8c;
+    -webkit-columns:100px 3; /* Chrome, Safari, Opera */
+    -moz-columns:100px 3; /* Firefox */
+    columns: 100px 3;
     
 }
+.text{
+    float:left;
+}
+
+
+
+
+
+    
+    
+
+
 @media screen and (max-width: 670px) {
     .header {
         height: 120px;
